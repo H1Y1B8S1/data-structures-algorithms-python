@@ -15,7 +15,6 @@
 def binary_search(numbers_list, number_to_find):
     left_index = 0
     right_index = len(numbers_list) - 1
-    mid_index = 0
 
     while left_index <= right_index:
         mid_index = (left_index + right_index) // 2
